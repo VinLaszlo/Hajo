@@ -1,0 +1,66 @@
+/* 
+* File: app.js
+* Author: Vinkovits László
+* Copyright: 2023, Vinkovits László
+* Group: SZOFT I/II/N
+* Date: 2023-05-19
+* Github: https://github.com/VinLaszlo
+* Licenc: GNU GPL 
+*/
+
+body {
+  background-color: greenyellow !important;
+}
+
+h1 {
+  margin-top: 10px;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+
+.table {
+  background-color: orange !important;
+  color: black;
+}
+
+thead {
+  text-align: center;
+  background-color: lightgreen !important;
+}
+
+.table tbody {
+  text-align: center;
+  color: white;
+}
+
+.title {
+  border-style: solid;
+  border-width: 1px;
+  border-color: purple;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 125px;
+}
+
+#about {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Righteous", cursive;
+  text-emphasis-color: transparent;
+  background-color: darkblue;
+}
+
+#about a {
+  text-decoration: none;
+  color: gold;
+  font-size: 20px;
+}
